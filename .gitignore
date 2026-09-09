@@ -1,0 +1,28 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Dataset
+data/
+datasets/
+
+# Training outputs
+runs/
+results/
+
+# Local database
+detections.db
+
+# Editor
+.vscode/
+# Unnecessary model/training files
+weights/
+yolov9c.pt
+yolov9t.pt
+
+# Handoff archive
+SIH-Marine-Debris-Handoff.zip
+
+# Windows shortcuts
+*.lnk
